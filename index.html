@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+    .container{
+        width:98%;
+        
+        height:auto;
+        background-color:green;
+        text-align: center;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    a:hover{
+        color:white;
+        background-color:orange;
+    }
+
+    a{
+        text-decoration: none;
+        font-size:20px;
+        color:white;
+        padding: 10px 30px;
+        cursor: pointer;
+    }
+
+    .contain{
+        position:relative;
+        
+        display:inline;
+        
+    }
+
+    .contain1 {
+        
+        
+        display:none;
+        padding-top: 15px;
+        position:absolute;
+       justify-content: right;
+       font-size: 2px;
+        
+        
+    }
+
+
+    
+
+    
+
+    /* .contain:hover{
+        color:red;
+        background-color:darkkhaki;
+        display:flex;
+    } */
+
+    .contain:hover .contain1{
+       display:inline-block; 
+       background-color:green;
+       color:white;
+       text-align: center;
+       justify-content: center;
+       margin:0 auto;
+       
+    }
+
+    /* .but
+    {
+
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        margin: 10px 500px 10px 500px;
+
+    } */
+
+
+    </style>
+</head>
+<body>
+
+
+    <audio id="pl">
+        <source src="footsteps-in-water-nature-sounds-8185.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container">
+        
+        
+        <a onclick="makesound();">HOME</a>
+        <a href="#">MENU</a>
+        <a href="#">ABOUT US</a>
+        <div class="contain">
+        <a>CONTUCT US</a>
+        
+        <div class="contain1">
+
+            <a href="https://www.gmail.com">Email</a>
+            <br>
+            <br>
+            <a href="7362982792">Call Now</a>
+        </div>
+        </div>
+    
+
+    </div>
+    <center>
+    <button onclick="makesound();">OK</button>
+    </center>
+
+
+    <script src="javascript.js">
+        
+
+    </script>
+
+
+<!-- create download option -->
+
+<a href="1677185471320.jpg" download="MY PHOTO"><button>download</button></a>
+</body>
+
+</html>
